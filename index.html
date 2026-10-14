@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Uday Patil - Artificial Intelligence & Data Science (AI&DS) student at R. C. Patel Institute of Technology, Shirpur. Aspiring Software Developer." />
+  <meta name="keywords" content="Uday Patil, AI & Data Science, Portfolio, Software Developer, C, C++, Java, RCPIT Shirpur" />
+  <meta name="author" content="Uday Patil" />
+  <title>Uday Patil | AI & Data Science Student | Developer Portfolio</title>
+  
+  <!-- Modern Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="light">
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Uday Patil Homepage">
+        <span class="brand-code">&lt;</span><span class="brand-name">Uday Patil</span><span class="brand-code"> /&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#github" class="nav-link">GitHub</a></li>
+          <li><a href="#linkedin" class="nav-link">LinkedIn</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Resume Action Button -->
+        <a href="#contact" class="btn btn-outline btn-sm resume-nav-btn" id="resumeNavBtn" title="Download or Request Resume">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Theme Toggle (Dark & Light) -->
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-container">
+        
+        <!-- Left: Introduction Text & Actions -->
+        <div class="hero-text-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>AI & Data Science Student • RCPIT Shirpur</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Uday Patil</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            AI &amp; Data Science Student | Aspiring Software Developer
+          </h2>
+
+          <div class="hero-roles-typed">
+            <span class="typed-prefix">&gt; Focus: </span>
+            <span id="typedRole" class="typed-role">AI & Data Science</span>
+            <span class="typed-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            I am an Artificial Intelligence and Data Science student at R. C. Patel Institute of Technology, Shirpur, passionate about programming, problem-solving, and building innovative technology solutions.
+          </p>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="heroViewProjectsBtn">
+              <span>View My Projects</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            
+            <a href="#contact" class="btn btn-secondary" id="heroDownloadResumeBtn" title="Request or view resume">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download Resume</span>
+            </a>
+
+            <a href="#contact" class="btn btn-outline" id="heroContactBtn">
+              <i class="fa-regular fa-paper-plane"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Quick Connection Pills -->
+          <div class="hero-meta-links">
+            <a href="https://github.com/udaypatil-collapse" target="_blank" rel="noopener noreferrer" class="meta-pill" title="GitHub: udaypatil-collapse">
+              <i class="fa-brands fa-github"></i>
+              <span>udaypatil-collapse</span>
+            </a>
+            <a href="mailto:udaypatil4431@gmail.com" class="meta-pill" title="Email Uday Patil">
+              <i class="fa-solid fa-envelope"></i>
+              <span>udaypatil4431@gmail.com</span>
+            </a>
+            <a href="tel:+919730854327" class="meta-pill" title="Call Uday Patil">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91 9730854327</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Profile Photo Showcase -->
+        <div class="hero-image-wrapper">
+          <div class="photo-card-container">
+            <div class="photo-glow-effect"></div>
+            <div class="photo-frame">
+              <img 
+                src="profile.jpg" 
+                alt="Portrait of Uday Patil - Artificial Intelligence & Data Science Student" 
+                class="profile-img"
+                id="profileImage"
+                loading="eager"
+              />
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="badge-text">
+                <strong>AI &amp; DS</strong>
+                <span>Student</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon"><i class="fa-solid fa-code"></i></div>
+              <div class="badge-text">
+                <strong>C • C++ • Java</strong>
+                <span>Languages</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ME SECTION ================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Student Profile</span>
+          <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+          <div class="heading-separator"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main authentic student summary -->
+          <div class="about-card intro-card">
+            <div class="card-chip">
+              <i class="fa-solid fa-user-graduate"></i>
+              <span>Academic Perspective</span>
+            </div>
+            <h3 class="card-heading">Curious Mind, Driven by Code &amp; Data</h3>
+            <p class="about-paragraph">
+              I am an undergraduate student pursuing my Bachelor of Technology in <strong>Artificial Intelligence and Data Science (AI&amp;DS)</strong> at <strong>R. C. Patel Institute of Technology, Shirpur</strong>. My academic journey is centered around developing strong software fundamentals, analytical thinking, and practical problem-solving skills.
+            </p>
+            <p class="about-paragraph">
+              I am genuinely passionate about exploring core programming concepts in <strong>C, C++, and Java</strong>, understanding data structures and algorithms, and discovering how artificial intelligence and data-driven methods can solve real-world problems. As a dedicated student, I enjoy building hands-on projects, learning modern developer workflows with Git and GitHub, and constantly expanding my technical horizons.
+            </p>
+            
+            <div class="student-pillars">
+              <div class="pillar-tag">
+                <i class="fa-solid fa-microchip"></i>
+                <span>Artificial Intelligence</span>
+              </div>
+              <div class="pillar-tag">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>Data Science Foundations</span>
+              </div>
+              <div class="pillar-tag">
+                <i class="fa-solid fa-terminal"></i>
+                <span>Programming Fundamentals</span>
+              </div>
+              <div class="pillar-tag">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span>Algorithmic Thinking</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Cards: Authentic Student Focus -->
+          <div class="about-highlights-grid">
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h4>Core Programming</h4>
+              <p>Strengthening foundational programming concepts through rigorous practice in C, C++, and Java.</p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <h4>AI &amp; Data Exploration</h4>
+              <p>Studying intelligent systems, data structures, and computational approaches to data analysis.</p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <h4>Modern Version Control</h4>
+              <p>Actively adopting Git and GitHub practices for organized codebase management and collaboration.</p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <h4>Growth Mindset</h4>
+              <p>Eager to tackle academic coursework, semester projects, and collaborative engineering challenges.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION SECTION ================= -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">My <span class="text-gradient">Education</span></h2>
+          <div class="heading-separator"></div>
+        </div>
+
+        <div class="education-card-wrapper">
+          <div class="education-card">
+            <div class="edu-card-header">
+              <div class="edu-icon-container">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <div class="edu-meta-title">
+                <span class="edu-badge">Currently Enrolled</span>
+                <h3 class="institution-name">R. C. Patel Institute of Technology</h3>
+                <div class="institution-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Shirpur, Maharashtra</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu-details-body">
+              <div class="edu-detail-row">
+                <div class="detail-label">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span>Program &amp; Branch:</span>
+                </div>
+                <div class="detail-value">
+                  <strong>Artificial Intelligence and Data Science (AI&amp;DS)</strong>
+                </div>
+              </div>
+
+              <div class="edu-detail-row">
+                <div class="detail-label">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <span>Current Semester:</span>
+                </div>
+                <div class="detail-value">
+                  <!-- Configurable semester placeholder -->
+                  <span class="semester-pill" id="currentSemesterText">Currently Enrolled (Undergraduate Degree)</span>
+                </div>
+              </div>
+
+              <div class="edu-detail-row">
+                <div class="detail-label">
+                  <i class="fa-solid fa-book-bookmark"></i>
+                  <span>Curriculum Focus:</span>
+                </div>
+                <div class="detail-value">
+                  <span class="course-chip">Programming in C / C++</span>
+                  <span class="course-chip">Object-Oriented Programming in Java</span>
+                  <span class="course-chip">Data Structures &amp; Algorithms</span>
+                  <span class="course-chip">Database Systems</span>
+                  <span class="course-chip">Foundations of AI &amp; Data Science</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TECHNICAL SKILLS SECTION ================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical <span class="text-gradient">Skills</span></h2>
+          <div class="heading-separator"></div>
+        </div>
+
+        <!-- Programming Languages Group -->
+        <div class="skills-block">
+          <div class="skills-block-header">
+            <div class="block-icon"><i class="fa-solid fa-code"></i></div>
+            <div>
+              <h3 class="block-title">Programming Languages</h3>
+              <p class="block-desc">Core programming languages utilized in coursework, problem solving, and software development.</p>
+            </div>
+          </div>
+
+          <div class="skills-grid">
+            <!-- C Programming -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap c-icon">
+                  <span class="language-letter">C</span>
+                </div>
+                <span class="skill-level-tag">Core Language</span>
+              </div>
+              <h4 class="skill-name">C Programming</h4>
+              <p class="skill-info">Foundational procedural programming, pointers, structured logic, and algorithmic syntax.</p>
+              <div class="skill-topics">
+                <span>Structured Logic</span>
+                <span>Pointers &amp; Memory</span>
+                <span>Data Types</span>
+              </div>
+            </div>
+
+            <!-- C++ Programming -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap cpp-icon">
+                  <span class="language-letter">C++</span>
+                </div>
+                <span class="skill-level-tag">OOP &amp; STL</span>
+              </div>
+              <h4 class="skill-name">C++ Programming</h4>
+              <p class="skill-info">Object-oriented programming principles, classes, functions, and standard template library.</p>
+              <div class="skill-topics">
+                <span>OOP Concepts</span>
+                <span>Standard Template Library</span>
+                <span>Functions &amp; Classes</span>
+              </div>
+            </div>
+
+            <!-- Java Programming -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap java-icon">
+                  <i class="fa-brands fa-java"></i>
+                </div>
+                <span class="skill-level-tag">Object-Oriented</span>
+              </div>
+              <h4 class="skill-name">Java Programming</h4>
+              <p class="skill-info">Robust object-oriented development, class hierarchies, inheritance, and core Java libraries.</p>
+              <div class="skill-topics">
+                <span>Classes &amp; Objects</span>
+                <span>Inheritance &amp; Polymorphism</span>
+                <span>Core Libraries</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Version Control & Collaboration Group -->
+        <div class="skills-block">
+          <div class="skills-block-header">
+            <div class="block-icon"><i class="fa-solid fa-code-branch"></i></div>
+            <div>
+              <h3 class="block-title">Version Control &amp; Collaboration</h3>
+              <p class="block-desc">Tools and practices utilized for source code tracking and repository management.</p>
+            </div>
+          </div>
+
+          <div class="skills-grid skills-grid-two">
+            <!-- GitHub -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap github-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <span class="skill-level-tag">Cloud Hosting</span>
+              </div>
+              <h4 class="skill-name">GitHub</h4>
+              <p class="skill-info">Remote repository hosting, project collaboration, code reviews, and project showcasing.</p>
+              <div class="skill-topics">
+                <span>Remote Repositories</span>
+                <span>Profile &amp; Showcase</span>
+                <span>Collaboration</span>
+              </div>
+            </div>
+
+            <!-- Version Control -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap git-icon">
+                  <i class="fa-brands fa-git-alt"></i>
+                </div>
+                <span class="skill-level-tag">Source Tracking</span>
+              </div>
+              <h4 class="skill-name">Version Control</h4>
+              <p class="skill-info">Fundamental source code version management, staging changes, commits, and branch navigation.</p>
+              <div class="skill-topics">
+                <span>Git Workflows</span>
+                <span>Commit History</span>
+                <span>Branch Management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Academic Spotlight</span>
+          <h2 class="section-title">Semester <span class="text-gradient">Projects</span></h2>
+          <div class="heading-separator"></div>
+          <p class="section-desc">Projects engineered during academic coursework exploring practical solutions and artificial intelligence.</p>
+        </div>
+
+        <div class="featured-project-container">
+          <div class="project-featured-card">
+            
+            <div class="project-badge-bar">
+              <span class="badge-featured"><i class="fa-solid fa-star"></i> Featured Semester Project</span>
+              <span class="badge-domain"><i class="fa-solid fa-robot"></i> Artificial Intelligence</span>
+            </div>
+
+            <div class="project-content-grid">
+              
+              <!-- Left: Project Visual / Illustration -->
+              <div class="project-visual-pane">
+                <div class="ai-illustration-card">
+                  <div class="ai-orb">
+                    <i class="fa-solid fa-brain"></i>
+                  </div>
+                  <div class="ai-pulse-rings"></div>
+                  
+                  <div class="ai-mock-dialogue">
+                    <div class="mock-bubble mock-bubble-user">
+                      <i class="fa-solid fa-user"></i>
+                      <span>"How can I articulate OOP concepts effectively?"</span>
+                    </div>
+                    <div class="mock-bubble mock-bubble-ai">
+                      <i class="fa-solid fa-robot"></i>
+                      <span>"Structuring with real-world analogies: Encapsulation, Abstraction, Inheritance &amp; Polymorphism..."</span>
+                    </div>
+                  </div>
+
+                  <div class="tech-status-chip">
+                    <i class="fa-solid fa-gear fa-spin"></i>
+                    <span>Semester Project in Progress</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right: Project Description & Details -->
+              <div class="project-info-pane">
+                <h3 class="featured-project-title">Interview Gets by AI</h3>
+                
+                <p class="featured-project-desc">
+                  An AI-based interview assistance project designed to explore how artificial intelligence can support interview preparation and improve the interview experience.
+                </p>
+
+                <!-- Project Specifications -->
+                <div class="project-specs">
+                  <div class="spec-item">
+                    <span class="spec-label"><i class="fa-solid fa-layer-group"></i> Project Type:</span>
+                    <span class="spec-value">Academic Semester Project</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label"><i class="fa-solid fa-code"></i> Technology Stack:</span>
+                    <!-- As required: If tech stack is unknown, show "Technology stack to be updated." -->
+                    <span class="spec-value tech-pending-tag">Technology stack to be updated.</span>
+                  </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="project-action-buttons">
+                  <!-- Configurable GitHub repo button -->
+                  <a href="https://github.com/udaypatil-collapse" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="projectRepoBtn" title="GitHub Repository for Interview Gets by AI">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub Repository</span>
+                  </a>
+
+                  <!-- Live Demo Button (configured status) -->
+                  <button type="button" class="btn btn-disabled" id="projectDemoBtn" title="Demo will be available upon deployment" aria-disabled="true">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Live Demo (In Development)</span>
+                  </button>
+                </div>
+                
+                <p class="project-footnote">
+                  <i class="fa-solid fa-circle-info"></i> Repository links and working deployment URLs will be updated as project development progresses.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= GITHUB SECTION ================= -->
+    <section class="section github-section" id="github">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Code Repository</span>
+          <h2 class="section-title">GitHub <span class="text-gradient">Profile</span></h2>
+          <div class="heading-separator"></div>
+        </div>
+
+        <div class="profile-card-center">
+          <div class="github-profile-card">
+            <div class="github-card-ambient"></div>
+            
+            <div class="github-header">
+              <div class="github-avatar-box">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="github-identity">
+                <h3 class="github-display-name">Uday Patil</h3>
+                <span class="github-username">@udaypatil-collapse</span>
+              </div>
+              <div class="github-platform-badge">
+                <i class="fa-solid fa-check-circle"></i>
+                <span>Active Profile</span>
+              </div>
+            </div>
+
+            <p class="github-bio">
+              Explore my public repositories, coding experiments, coursework implementations, and ongoing software projects on GitHub.
+            </p>
+
+            <div class="github-highlight-bar">
+              <div class="git-stat-item">
+                <i class="fa-solid fa-terminal"></i>
+                <span>Languages: C, C++, Java</span>
+              </div>
+              <div class="git-stat-item">
+                <i class="fa-solid fa-brain"></i>
+                <span>Focus: AI &amp; Data Science</span>
+              </div>
+            </div>
+
+            <div class="github-cta-area">
+              <a href="https://github.com/udaypatil-collapse" target="_blank" rel="noopener noreferrer" class="btn btn-primary github-btn" id="visitGithubBtn">
+                <i class="fa-brands fa-github"></i>
+                <span>Visit My GitHub</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <span class="profile-url-text">https://github.com/udaypatil-collapse</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LINKEDIN SECTION ================= -->
+    <section class="section linkedin-section" id="linkedin">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Professional Network</span>
+          <h2 class="section-title">LinkedIn <span class="text-gradient">Connect</span></h2>
+          <div class="heading-separator"></div>
+        </div>
+
+        <div class="profile-card-center">
+          <div class="linkedin-profile-card">
+            <div class="linkedin-card-ambient"></div>
+
+            <div class="linkedin-header">
+              <div class="linkedin-avatar-box">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="linkedin-identity">
+                <h3 class="linkedin-display-name">Uday Patil</h3>
+                <span class="linkedin-tagline">AI &amp; Data Science Student • R. C. Patel Institute of Technology</span>
+              </div>
+            </div>
+
+            <p class="linkedin-invitation">
+              I welcome opportunities to connect with fellow students, engineers, educators, and industry professionals. Let's connect professionally to discuss artificial intelligence, software development, and future opportunities.
+            </p>
+
+            <div class="linkedin-cta-area">
+              <!-- Configurable LinkedIn button as required -->
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-linkedin" id="connectLinkedInBtn" title="Connect with Uday Patil on LinkedIn (Update with exact profile link)">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>Connect on LinkedIn</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <p class="linkedin-config-note">
+              <i class="fa-solid fa-link"></i> Configurable button — set your personalized LinkedIn URL in <code>index.html</code> or <code>script.js</code>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Contact <span class="text-gradient">Information</span></h2>
+          <div class="heading-separator"></div>
+          <p class="section-desc">Feel free to reach out via email, phone, or send a direct message below.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Left Column: Direct Contact Info Cards -->
+          <div class="contact-cards-container">
+            
+            <!-- Email Card -->
+            <div class="contact-info-card">
+              <div class="contact-icon-box email-box">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-label">Email Address</span>
+                <a href="mailto:udaypatil4431@gmail.com" class="contact-value-link" id="emailContactLink">
+                  udaypatil4431@gmail.com
+                </a>
+              </div>
+              <button class="copy-btn" id="copyEmailBtn" title="Copy email address" aria-label="Copy email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <!-- Mobile Card -->
+            <div class="contact-info-card">
+              <div class="contact-icon-box phone-box">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-label">Mobile Number</span>
+                <a href="tel:+919730854327" class="contact-value-link" id="phoneContactLink">
+                  +91 9730854327
+                </a>
+              </div>
+              <button class="copy-btn" id="copyPhoneBtn" title="Copy phone number" aria-label="Copy phone number">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <!-- College & Location Card -->
+            <div class="contact-info-card">
+              <div class="contact-icon-box location-box">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-label">Academic Location</span>
+                <span class="contact-value-static">
+                  R. C. Patel Institute of Technology, Shirpur, Maharashtra, India
+                </span>
+              </div>
+            </div>
+
+            <!-- Notice card for transparent communication -->
+            <div class="contact-note-card">
+              <i class="fa-solid fa-shield-halved"></i>
+              <p>Direct communication via email (<code>udaypatil4431@gmail.com</code>) or phone (<code>+91 9730854327</code>) is directly received by Uday Patil.</p>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Simple Contact Form -->
+          <div class="contact-form-container">
+            <div class="contact-form-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">Fill out the fields below to prepare and send an email message directly.</p>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="userName" class="form-label">
+                    <span>Your Name</span>
+                    <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input 
+                      type="text" 
+                      id="userName" 
+                      name="userName" 
+                      placeholder="e.g. Aditi Sharma" 
+                      required 
+                      class="form-input"
+                    />
+                  </div>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">
+                    <span>Your Email</span>
+                    <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-envelope input-icon"></i>
+                    <input 
+                      type="email" 
+                      id="userEmail" 
+                      name="userEmail" 
+                      placeholder="e.g. aditi@example.com" 
+                      required 
+                      class="form-input"
+                    />
+                  </div>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage" class="form-label">
+                    <span>Message</span>
+                    <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper textarea-wrapper">
+                    <i class="fa-regular fa-comment-dots input-icon"></i>
+                    <textarea 
+                      id="userMessage" 
+                      name="userMessage" 
+                      rows="4" 
+                      placeholder="Hello Uday, I would like to connect with you regarding..." 
+                      required 
+                      class="form-input form-textarea"
+                    ></textarea>
+                  </div>
+                  <span class="field-error" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="submitContactBtn">
+                  <span>Send Message via Email</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+                <!-- Feedback Message Container -->
+                <div id="formStatusBox" class="form-status-box" role="alert" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer" id="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-code">&lt;</span><span class="brand-name">Uday Patil</span><span class="brand-code"> /&gt;</span>
+          <p class="footer-tagline">Artificial Intelligence and Data Science Student</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#github">GitHub</a>
+          <a href="#linkedin">LinkedIn</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-social-links">
+          <a href="https://github.com/udaypatil-collapse" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="GitHub Profile" aria-label="GitHub Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn" id="footerLinkedInBtn" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:udaypatil4431@gmail.com" class="social-circle-btn" title="Send Email" aria-label="Send Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+919730854327" class="social-circle-btn" title="Call Mobile" aria-label="Call Mobile">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          Designed &amp; Developed by <strong>Uday Patil</strong> &bull; &copy; <span id="currentYear"></span> All rights reserved.
+        </p>
+        <a href="#hero" class="back-to-top" id="backToTopBtn" aria-label="Back to top" title="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
